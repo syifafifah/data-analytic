@@ -29,7 +29,7 @@ def create_season_data_df(df):
 # end helper
 
 # load cleaned data
-all_df = pd.read_csv("data_df.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/syifafifah/data-analytic/refs/heads/main/dashboard/data_df.csv")
 
 dteday = ["dteday"]
 all_df.sort_values(by="dteday")
