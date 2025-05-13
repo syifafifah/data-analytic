@@ -6,7 +6,7 @@ import seaborn as sns
 
 # helper function untuk dataframe
 def create_monthly_data_df(df):
-    monthly_data_df = df.resample(rule='ME', on='dteday').agg({
+    monthly_data_df = df.resample(rule='M', on='dteday').agg({
         "instant": "nunique",
         "cnt": "sum"
     })
