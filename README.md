@@ -9,8 +9,8 @@ pip install -r requirements.txt
 
 ## Setup Environment - Shell/Terminal
 ```
-mkdir submission_syifa
-cd submission_syifa
+mkdir data-analytic
+cd data-analytic
 pipenv install
 pipenv shell
 pip install -r requirements.txt
